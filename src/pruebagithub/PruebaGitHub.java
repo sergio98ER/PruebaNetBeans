@@ -15,7 +15,8 @@ public class PruebaGitHub {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Presupuesto  p = new Presupuesto ("Inda", "me debes", 5.80);
+        System.out.println(p.toString());
     }
     
 }

@@ -47,5 +47,10 @@ public class Presupuesto {
     public void setImporte(double importe) {
         this.importe = importe;
     }
+
+    @Override
+    public String toString() {
+        return "Presupuesto{" + "cliente=" + cliente + ", descripcion=" + descripcion + ", importe=" + importe + '}';
+    }
     
 }
